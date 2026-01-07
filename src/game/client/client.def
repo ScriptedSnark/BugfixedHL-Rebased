@@ -1,0 +1,5 @@
+LIBRARY client
+EXPORTS
+	gEngfuncs			@1
+SECTIONS
+	.data READ WRITE
