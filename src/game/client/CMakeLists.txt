@@ -262,6 +262,7 @@ if( PLATFORM_WINDOWS )
 		${SOURCE_FILES}
 		engine_patches_windows.cpp
 		net_windows.cpp
+		client.def
 	)
 elseif( PLATFORM_LINUX )
 	set( SOURCE_FILES
