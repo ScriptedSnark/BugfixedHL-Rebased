@@ -43,7 +43,7 @@ enum class MouseMode
 	RawInput = 2,
 };
 
-extern cl_enginefunc_t gEngfuncs;
+extern EXPORT cl_enginefunc_t gEngfuncs;
 extern int iMouseInUse;
 
 extern kbutton_t in_strafe;
