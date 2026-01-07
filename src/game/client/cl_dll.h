@@ -44,7 +44,7 @@ typedef float vec_t;
 #include "../engine/cdll_int.h"
 #include "cdll_dll.h"
 
-extern cl_enginefunc_t gEngfuncs;
+extern EXPORT cl_enginefunc_t gEngfuncs;
 
 //! Causes a fatal client error. Shows a dialog and crashes the game.
 //! @param  fmt     Printf arguments.
