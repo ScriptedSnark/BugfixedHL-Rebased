@@ -7,7 +7,7 @@
 extern ConVar hud_client_renderer;
 extern ConVar hud_rainbow;
 
-cl_enginefunc_t gEngfuncs;
+EXPORT cl_enginefunc_t gEngfuncs;
 
 static cl_enginefunc_t s_OrigEngfuncs;
 static bool s_bRendererHook = false;
